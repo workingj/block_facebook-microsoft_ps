@@ -1,6 +1,6 @@
 # block facebook
 
-A small Powershell script that adds Rules to your Windows Firewall to block all facebook ip´s..  
+A Powershell script that adds Rules to your Windows Firewall to block all facebook ip´s..  
 All ip's from facebook listed here [ipinfo.io/AS32934](https://ipinfo.io/AS32934) are added to an Inbound and Outbound rule and will be blocked.  
 All IPv4 and IPv6 address ranges included.
 
