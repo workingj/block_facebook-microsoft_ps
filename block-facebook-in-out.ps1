@@ -128,7 +128,7 @@ New-NetFirewallRule -Name "110 Block facebook (in)" `
 "2620:10d:c095::/48",
 "2620:10d:c096::/48",
 "2620:10d:c098::/48",
-"2620:10d:c099::/48"
+"2620:10d:c099::/48",
 "2620:13e:1000::/44",
 "2620:13e:100c::/48",
 "2620:13e:100d::/48",
@@ -142,7 +142,7 @@ New-NetFirewallRule -Name "110 Block facebook (in)" `
 "2a03:2880:f001::/48",
 "2a03:2880:f003::/48",
 "2a03:2880:f004::/48",
-"2a03:2880:f005::/48",)
+"2a03:2880:f005::/48")
 New-NetFirewallRule -Name "110 Block facebook (out)" `
                 -Description "Kill all facebook ip ranges" `
                 -DisplayName "110 Block facebook (out)" `
@@ -273,7 +273,7 @@ New-NetFirewallRule -Name "110 Block facebook (out)" `
 "2620:10d:c095::/48",
 "2620:10d:c096::/48",
 "2620:10d:c098::/48",
-"2620:10d:c099::/48"
+"2620:10d:c099::/48",
 "2620:13e:1000::/44",
 "2620:13e:100c::/48",
 "2620:13e:100d::/48",
@@ -287,4 +287,4 @@ New-NetFirewallRule -Name "110 Block facebook (out)" `
 "2a03:2880:f001::/48",
 "2a03:2880:f003::/48",
 "2a03:2880:f004::/48",
-"2a03:2880:f005::/48",)
+"2a03:2880:f005::/48")

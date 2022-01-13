@@ -17,13 +17,13 @@ Start the Commandline as Admin in the folder where the script is and enter this:
 __for facebook:__
 
 ```batch
-powershell -ep RemoteSigned .\block-facebook-in-out.ps1
+powershell -ep Unrestricted -file .\block-facebook-in-out.ps1
 ```
 
 __for microsoft:__
 
 ```batch
-powershell -ep RemoteSigned .\block-microsoft-in-out.ps1
+powershell -ep Unrestricted -file .\block-microsoft-in-out.ps1
 ```
 
 ### Take a look (block-facebook-in&out.ps1)
