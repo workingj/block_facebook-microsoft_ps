@@ -3,8 +3,8 @@
 A Powershell script that adds Rules to your Windows Firewall to block all facebook and microsoft ip´s..
 All ip's listed here are from:
 
- - facebook  [https://ipinfo.io/AS32934](https://ipinfo.io/AS32934)
- - microsoft: [https://ipinfo.io/AS8075](https://ipinfo.io/AS8075)
+- facebook:  [https://ipinfo.io/AS32934](https://ipinfo.io/AS32934)
+- microsoft: [https://ipinfo.io/AS8075](https://ipinfo.io/AS8075)
 
 (downstreams included) and will be added to an Inbound and Outbound firewall rule to be blocked.
 (IPv4 and IPv6 address ranges included)
@@ -17,13 +17,13 @@ Start the Commandline as Admin in the folder where the script is and enter this:
 __for facebook:__
 
 ```batch
-powershell -ep RemoteSigned .\block-facebook-in&out.ps1
+powershell -ep RemoteSigned .\block-facebook-in-out.ps1
 ```
 
 __for microsoft:__
 
 ```batch
-powershell -ep RemoteSigned .\block-microsoft-in&out.ps1
+powershell -ep RemoteSigned .\block-microsoft-in-out.ps1
 ```
 
 ### Take a look (block-facebook-in&out.ps1)
